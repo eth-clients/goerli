@@ -6,5 +6,5 @@ Stage: pre-test testnet.
 ### Parity Ethereum
 
 ```
-parity --chain ./parity/goerli.json
+parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
 ```
