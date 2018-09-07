@@ -1,2 +1,10 @@
-# testnet
-The goerli testnet configuration
+# Görli Testnet
+The goerli testnet configuration.
+
+Stage: pre-test testnet.
+
+### Parity Ethereum
+
+```
+parity --chain ./parity/goerli.json
+```
