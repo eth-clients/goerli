@@ -1,66 +1,143 @@
 {
-	"name": "Görli",
-	"dataDir": "goerli",
-	"engine": {
-		"authorityRound": {
-			"params": {
-				"stepDuration": "4",
-				"blockReward": "0x4563918244F40000",
-				"validators" : {
-					"list": [
-						"0x0082a7bf6aaadab094061747872243059c3c6a07",
-						"0x00faa37564140c1a5e96095f05466b9f73441e44"
-					]
-				},
-				"validateScoreTransition": "0x0",
-				"validateStepTransition": "0x0",
-				"maximumUncleCountTransition": "0x0",
-				"maximumUncleCount": "0x0"
-			}
-		}
-	},
-	"params": {
-		"gasLimitBoundDivisor": "0x400",
-		"maximumExtraDataSize": "0x20",
-		"minGasLimit": "0x1388",
-		"networkID" : "0x188B",
-		"eip155Transition": "0x0",
-		"maxCodeSize": "0x6000",
-		"maxCodeSizeTransition": "0x0",
-		"validateChainIdTransition": "0x0",
-		"validateReceiptsTransition" : "0x0",
-		"eip140Transition": "0x0",
-		"eip211Transition": "0x0",
-		"eip214Transition": "0x0",
-		"eip658Transition": "0x0"
-	},
-	"genesis": {
-		"seal": {
-			"authorityRound": {
-				"step": "0x0",
-				"signature": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000AC1DC0FFEE"
-			}
-		},
-		"difficulty": "0x20000",
-		"gasLimit": "0x5B8D80"
-	},
-	"accounts": {
-		"0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
-		"0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
-		"0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
-		"0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
-		"0x0000000000000000000000000000000000000005": { "builtin": { "name": "modexp", "activate_at": "0x0", "pricing": { "modexp": { "divisor": 20 } } } },
-		"0x0000000000000000000000000000000000000006": { "builtin": { "name": "alt_bn128_add", "activate_at": "0x0", "pricing": { "linear": { "base": 500, "word": 0 } } } },
-		"0x0000000000000000000000000000000000000007": { "builtin": { "name": "alt_bn128_mul", "activate_at": "0x0", "pricing": { "linear": { "base": 40000, "word": 0 } } } },
-		"0x0000000000000000000000000000000000000008": { "builtin": { "name": "alt_bn128_pairing", "activate_at": "0x0", "pricing": { "alt_bn128_pairing": { "base": 100000, "pair": 80000 } } } },
-		"0x0015c90d0e12186bc51c9d51aff4d3fb6e984291": { "balance": "1606938044258990275541962092341162602522202993782792835301376" },
-		"0x009fcc115ad9ef38288a82a014dea30f63a84383": { "balance": "1606938044258990275541962092341162602522202993782792835301376" }
-
-	},
-	"nodes": [
-		"enode://ffc0d1bcc54dee616617be06edf2b3abdd200beb3765d4475ae9fb1750d98fb0d753b30e691912bb6775b7d442b71072c91becab2141191ce73de5b6d57ac723@40.114.122.81:30303",
-		"enode://5b360e4baabf9e89e42e9241d4d00e7ff7a804759049be7dde30980ccce445f1fb0f91a4b9a4a28ee371b18d679fcced3cac3d73654059dd69c4a7b772bd4abf@40.87.8.76:30303",
-		"enode://b95468b5fa80293c4f2fce2df7a02a52f0b259063d99a78a571afcb69f736ead79ca73412b37cb2336da75066f02439d2e50e22dedc1b78380a6ab36ebdda3fc@40.87.4.17:30303",
-		"enode://3969e0879235c0b2bcc8957fc6d62d53763fcff0e750788eae029d40f1b4fa69f4d5a952ea3d02f85eb558faaae6bd5fbd1f394867edc6728c9fe7b9959329b0@40.87.1.35:30303"
-	]
+   "name":"Görli",
+   "dataDir":"goerli",
+   "engine":{
+      "clique":{
+         "params":{
+            "signers":[
+               "0x01fa1804c408085d9c57eeb167ce953c99b6cb1e",
+               "0x20794Fd02933F303FbA550bd1fe2f0649E3576eB"
+            ]
+         },
+         "period":15,
+         "epoch":3000
+      }
+   },
+   "params":{
+      "maximumExtraDataSize":"0x20",
+      "minGasLimit":"0x1388",
+      "gasLimitBoundDivisor":"0x400",
+      "networkID":"0x188c",
+      "eip140Transition":"0x0",
+      "eip211Transition":"0x0",
+      "eip214Transition":"0x0",
+      "eip658Transition":"0x0",
+      "wasmActivationTransition":"0xffffffffffffffff",
+      "eip145Transition":"0x0",
+      "eip1014Transition":"0x0",
+      "eip1052Transition":"0x0",
+      "eip1283Transition":"0x0",
+      "kip4Transition":"0xffffffffffffffff",
+      "kip6Transition":"0xffffffffffffffff"
+   },
+   "genesis":{
+      "seal":{
+         "generic":"0x0"
+      },
+      "difficulty":"0x1",
+      "author":"0x0000000000000000000000000000000000000000",
+      "timestamp":"0x00",
+      "parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
+      "extraData":"0x000000000000000000000000000000000000000000000000000000000000000001fa1804c408085d9c57eeb167ce953c99b6cb1e20794fd02933f303fba550bd1fe2f0649e3576eb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gasLimit":"0xa00000"
+   },
+   "accounts":{
+      "0x0000000000000000000000000000000000000001":{
+         "builtin":{
+            "name":"ecrecover",
+            "pricing":{
+               "linear":{
+                  "base":3000,
+                  "word":0
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000002":{
+         "builtin":{
+            "name":"sha256",
+            "pricing":{
+               "linear":{
+                  "base":60,
+                  "word":12
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000003":{
+         "builtin":{
+            "name":"ripemd160",
+            "pricing":{
+               "linear":{
+                  "base":600,
+                  "word":120
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000004":{
+         "builtin":{
+            "name":"identity",
+            "pricing":{
+               "linear":{
+                  "base":15,
+                  "word":3
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000005":{
+         "builtin":{
+            "name":"modexp",
+            "activate_at":"0x0",
+            "pricing":{
+               "modexp":{
+                  "divisor":20
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000006":{
+         "builtin":{
+            "name":"alt_bn128_add",
+            "activate_at":"0x0",
+            "pricing":{
+               "linear":{
+                  "base":500,
+                  "word":0
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000007":{
+         "builtin":{
+            "name":"alt_bn128_mul",
+            "activate_at":"0x0",
+            "pricing":{
+               "linear":{
+                  "base":40000,
+                  "word":0
+               }
+            }
+         }
+      },
+      "0x0000000000000000000000000000000000000008":{
+         "builtin":{
+            "name":"alt_bn128_pairing",
+            "activate_at":"0x0",
+            "pricing":{
+               "alt_bn128_pairing":{
+                  "base":100000,
+                  "pair":80000
+               }
+            }
+         }
+      },
+      "0x009fcc115ad9ef38288a82a014dea30f63a84383":{
+         "balance":"0x100000000000000000000000000000000000000000000000000"
+      },
+      "0x0015c90d0e12186bc51c9d51aff4d3fb6e984291":{
+         "balance":"0x100000000000000000000000000000000000000000000000000"
+      }
+   }
 }
