@@ -1,40 +1,33 @@
-# Görli Testnet
-The goerli testnet configuration.
+# Görli Testnet v0.2
+The goerli testnet v0.2 configuration.
 
-Stage: pre-test testnet. Dashboard: http://ethstats.goerli.ethberl.in:3000/
+Stage: pre-test testnet v0.2. Dashboard: http://ethstats.goerli.ethberl.in:3000/
 
-### Parity Ethereum
+### Parity-Ethereum w/ Clique
 
-Any Parity Ethereum version will do:
+Source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa/
+
+_This is work in progress and will most likely fail._
 
 ```
 parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
 ```
 
-Or use Parity Goerli: https://github.com/goerli/parity-goerli
+**WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
+
+### Go-Ethereum
+
+Source: https://github.com/ethereum/go-ethereum
 
 ```
-git checkout master
-cargo build --release
-./target/release/parity --chain goerli
+geth --datadir /tmp/goerli/geth init ./geth/goerli.genesis
+geth --datadir /tmp/goerli/geth
 ```
 
-### Geth w/ Aura
+### Pantheon
 
-Source: https://github.com/goerli/go-ethereum-aura
-
-Test locally:
+Source:
 
 ```
-git checkout aura-dev
-make geth
-rm -rf /tmp/goerli
-./build/bin/geth --datadir /tmp/goerli init ./geth/goerli.genesis
-./build/bin/geth --datadir /tmp/goerli --nodiscover --maxpeers 0 console
-```
-
-Or connecting to the network:
-
-```
-./build/bin/geth --goerli console
+pantheon --genesis=./geth/goerli.genesis --datadir=/tmp/goerli/pantheon
 ```
