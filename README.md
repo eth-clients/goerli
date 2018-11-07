@@ -12,11 +12,23 @@ geth --datadir /tmp/goerli/geth init ./geth/goerli.genesis
 geth --datadir /tmp/goerli/geth
 ```
 
-### Parity-Ethereum w/ Clique
+### Parity-Ethereum
+
+##### Without Clique:
+
+Source: https://github.com/paritytech/parity-ethereum
+
+_Note: this disables seal-checks and should not be used in production._
+
+```
+parity --base-path /tmp/goerli/parity --chain ./parity/null.json --no-seal-check --reserved-peers ./bootnodes.txt
+```
+
+##### With Clique:
 
 Source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa
 
-_This is work in progress and **will most likely fail**._ **WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
+_Note: This is work in progress and **will most likely fail**._ **WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
 
 ```
 parity --base-path /tmp/goerli/parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
