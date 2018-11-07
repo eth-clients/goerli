@@ -14,7 +14,7 @@ geth --datadir /tmp/goerli/geth
 
 ### Parity-Ethereum w/ Clique
 
-Source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa/
+Source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa
 
 _This is work in progress and **will most likely fail**._ **WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
 
@@ -24,7 +24,7 @@ parity --base-path /tmp/goerli/parity --chain ./parity/goerli.json --reserved-pe
 
 ### Pantheon
 
-Source:
+Source: https://github.com/PegaSysEng/pantheon
 
 ```
 pantheon --genesis=./geth/goerli.genesis --datadir=/tmp/goerli/pantheon
