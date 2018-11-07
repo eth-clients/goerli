@@ -1,5 +1,5 @@
 # Görli Testnet v0.2
-The goerli testnet v0.2 configuration.
+The goerli testnet v0.2 configuration. [![Görli Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
 
 Stage: _pre-test testnet v0.2_. Dashboard: http://ethstats.goerli.ethberl.in:3000/
 
