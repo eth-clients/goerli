@@ -1,10 +1,10 @@
 
 goerli-testmatrix- @roninkaizen-started-11092018
 
-version	(internal)  				                        functional  |	hangs @block   |  full-functional (arguments here)
+version	(internal)                                 functional  |hangs @block   |  full-functional (arguments here)
 -------------------------------------------------+--------------+----------------+---------------------------------
-parity-ethereum-2.1.2						                 |              |                |
-parity-ethereum-a5-config-constantinople         |	 	seems to 	| #4697          |  not yet
+parity-ethereum-2.1.2	                      |              |                |
+parity-ethereum-a5-config-constantinople         |   seems to   | #4697          |  not yet
 -------------------------------------------------+--------------+----------------+---------------------------------
 
 b14-(internal)
