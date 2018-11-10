@@ -26,13 +26,17 @@ parity --base-path /tmp/goerli/parity --chain ./parity/null.json --no-seal-check
 
 ##### With Clique:
 
-Source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa
+Source: https://github.com/thefallentree/parity-ethereum/tree/clique
 
-_Note: This is work in progress and **will most likely fail**._ **WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
+_Note: This is work in progress and **will most likely fail; WIP**:_ https://github.com/paritytech/parity-ethereum/pull/9845
 
 ```
 parity --base-path /tmp/goerli/parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
 ```
+
+Alternate source: https://github.com/jwasinger/parity-ethereum/tree/clique-poa
+
+**WIP**: https://github.com/paritytech/parity-ethereum/pull/9862
 
 ### Pantheon
 
