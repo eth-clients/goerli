@@ -12,7 +12,7 @@ Connect to Görli using the genesis provided in this repository:
 
 ```
 geth --datadir /tmp/goerli/geth init ./geth/goerli.genesis
-geth --datadir /tmp/goerli/geth --network-id 6284
+geth --datadir /tmp/goerli/geth --networkid 6284
 ```
 
 ### Parity-Ethereum (WIP)
