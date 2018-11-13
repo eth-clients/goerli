@@ -1,7 +1,7 @@
 # Görli Testnet
 The goerli testnet configuration.
 
-Stage: pre-test testnet. Dashboard: http://ethstats.goerli.ethberl.in:3000/
+Stage: pre-test testnet. Dashboard: https://stats.goerli.net
 
 ### Parity Ethereum
 
