@@ -1,7 +1,7 @@
-# Görli Testnet
-The goerli testnet configuration. [![Görli Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
+## Görli Testnet
+The `--goerli` testnet configuration. [![Görli Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
 
-- Stage: _pre-test testnet v0.2_
+- Stage: _pre-testnet_, might break any time.
 - Dashboard: https://stats.goerli.net/
 - Explorer: https://explorer.goerli.net/
 - Gitter: https://gitter.im/goerli/testnet/
@@ -57,3 +57,9 @@ Connect to Görli by using the provided goerli.cfg included in Nethermind:
 ```
 dotnet run --config configs/goerli.cfg
 ```
+
+## Contribute
+
+Donations for development and hosting can be done through our mini-DAO at [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
+
+Bounties for services and development will be available and announced soon.
