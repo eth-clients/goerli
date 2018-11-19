@@ -66,7 +66,7 @@ cargo build --release --features final
 Connect to Görli using the experimental Clique engine:
 
 ```
-./target/release/parity --base-path /tmp/goerli/parity --chain goerli
+./target/release/parity --chain goerli
 ```
 
 ##### Pantheon
@@ -87,7 +87,7 @@ dotnet run --config configs/goerli.cfg
 
 ### Contribute
 
-Run a node, report bugs, and join our Gitter: [gitter.im/goerli/testnet](https://gitter.im/goerli/testnet)!
+Run a node, [report bugs](https://github.com/goerli/testnet/issues), and join our [Gitter](https://gitter.im/goerli/testnet)!
 
 Donations for development and hosting can be done through our mini-DAO at [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
 
