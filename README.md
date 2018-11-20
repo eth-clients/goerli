@@ -60,6 +60,7 @@ Clique support in Parity Ethereum is still work in progress, but syncing the cha
 ```
 git clone https://github.com/goerli/parity-goerli.git
 cd parity-goerli/
+git checkout clique-v2  # or latest release on https://github.com/goerli/parity-goerli/releases
 cargo build --release --features final
 ```
 
