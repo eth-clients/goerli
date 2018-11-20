@@ -88,7 +88,7 @@ dotnet run --config configs/goerli.cfg
 
 ### Colaborar
 
-Ejecute un nodo, [report bugs](https://github.com/goerli/testnet/issues), y únete a nuestro [Gitter](https://gitter.im/goerli/testnet)!
+Ejecute un nodo, [reporte errores](https://github.com/goerli/testnet/issues), y únete a nuestro [Gitter](https://gitter.im/goerli/testnet)!
 
 Las donaciones para el desarrollo y el alojamiento se pueden hacer desde nuestro mini-DAO en: [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
 
