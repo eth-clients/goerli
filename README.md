@@ -94,7 +94,7 @@ Donations for development and hosting can be done through our mini-DAO at [`0x69
 
 The 2-of-3 multi-signature wallet is controlled by the following parties ([Proof of Twitter](https://twitter.com/5chdn/status/1063851317028954112), [Proof of Github](https://github.com/goerli/pm/blob/master/FINANCE.md)):
 
-- Aidan Hyman (@chainsafe)
+- Aidan Hyman (@chainsafeth)
 - Afri Schoedon (@5chdn)
 - María Paula Fernández (@MPtherealMVP)
 
