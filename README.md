@@ -101,4 +101,4 @@ The 2-of-3 multi-signature wallet is controlled by the following parties ([Proof
 - Afri Schoedon (@5chdn)
 - María Paula Fernández (@MPtherealMVP)
 
-Bounties for services and development will be available and announced soon.
+Read more about our current open bounties in the [The Görli Testnet Initiative Bounties Announcement](https://dev.to/5chdn/the-grli-testnet-initiative-bounties-announcement-3gp)
