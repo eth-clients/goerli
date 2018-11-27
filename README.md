@@ -39,6 +39,9 @@ All clients supporting the Clique engine (EIP-225) are able to sync Görli.
 
 You can connect Geth to Görli using the genesis provided in this repository:
 
+Note on Bootnodes:
+You can connect to the bootnodes by copying `./geth/static-nodes.json` into the data directory (commonly .ethereum) and then run the steps below.
+
 ```
 geth init ./geth/goerli.genesis
 geth --networkid 6284
