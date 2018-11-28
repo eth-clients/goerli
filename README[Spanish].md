@@ -38,6 +38,7 @@ Todos los clientes que soportan el motor Clique (EIP-225) pueden sincronizar con
 ##### Go-Ethereum
 
 Se puede conetar Geth a Görli usando el génesis proprocionado en este repositorio:
+Nota para los Bootnodes: Puede conectarse a los bootnodes copiando `./geth/static-nodes.json` en el directorio de datos (por defecto .ethereum) y luego ejecutar los pasos siguientes.
 
 ```
 geth init ./geth/goerli.genesis
@@ -92,7 +93,7 @@ Ejecute un nodo, [reporte errores](https://github.com/goerli/testnet/issues), y 
 
 Las donaciones para el desarrollo y el alojamiento se pueden hacer desde nuestro mini-DAO en: [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
 
-2-de-3 multi-signature wallet est controlada por las siguientes partes ([Proof of Twitter](https://twitter.com/5chdn/status/1063851317028954112), [Proof of Github](https://github.com/goerli/pm/blob/master/FINANCE.md)):
+2-de-3 multi-signature wallet están controladas por las siguientes partes ([Proof of Twitter](https://twitter.com/5chdn/status/1063851317028954112), [Proof of Github](https://github.com/goerli/pm/blob/master/FINANCE.md)):
 
 - Aidan Hyman (@chainsafe)
 - Afri Schoedon (@5chdn)
