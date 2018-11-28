@@ -39,6 +39,9 @@ All clients supporting the Clique engine (EIP-225) are able to sync Görli.
 
 You can connect Geth to Görli using the genesis provided in this repository:
 
+Note on Bootnodes:
+You can connect to the bootnodes by copying `./geth/static-nodes.json` into the data directory (commonly .ethereum) and then run the steps below.
+
 ```
 geth init ./geth/goerli.genesis
 geth --networkid 6284
@@ -94,8 +97,8 @@ Donations for development and hosting can be done through our mini-DAO at [`0x69
 
 The 2-of-3 multi-signature wallet is controlled by the following parties ([Proof of Twitter](https://twitter.com/5chdn/status/1063851317028954112), [Proof of Github](https://github.com/goerli/pm/blob/master/FINANCE.md)):
 
-- Aidan Hyman (@chainsafe)
+- Aidan Hyman (@chainsafeth)
 - Afri Schoedon (@5chdn)
 - María Paula Fernández (@MPtherealMVP)
 
-Bounties for services and development will be available and announced soon.
+Read more about our current open bounties in the [The Görli Testnet Initiative Bounties Announcement](https://dev.to/5chdn/the-grli-testnet-initiative-bounties-announcement-3gp)
