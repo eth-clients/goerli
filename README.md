@@ -89,6 +89,14 @@ Connect to Görli by using the provided goerli.cfg included in Nethermind 0.9.1:
 dotnet run --config configs/goerli.cfg
 ```
 
+##### EthereumJS
+
+Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1:
+
+```
+./bin/cli.js --network goerli
+```
+
 ### Contribute
 
 Run a node, [report bugs](https://github.com/goerli/testnet/issues), and join our [Gitter](https://gitter.im/goerli/testnet)!
