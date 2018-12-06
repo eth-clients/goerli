@@ -56,6 +56,15 @@ make geth
 ./build/bin/geth --goerli
 ```
 
+You can also deploy Goerli Geth with Terraform in Google Cloud. Here are the steps below:
+
+1. Install terraform https://learn.hashicorp.com/terraform/getting-started/install#installing-terraform.
+2. *cd geth/terraform*
+3. Put the appropiate info in *goerli.tf* file
+4. Then do *terraform init*
+5. And *terraform apply*
+6. You should see your instance deployed in Google Cloud Compute Engine Dashboard.
+
 ##### Parity-Ethereum (work in progress)
 
 Clique support in Parity Ethereum is still work in progress, but syncing the chain and all other Parity Ethereum features are available: [goerli/parity-goerli](https://github.com/goerli/parity-goerli)
