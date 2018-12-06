@@ -1,5 +1,5 @@
 provider "google" {
-    credentials = "${file("INSERT_GOOGLE_CLOUD_CREDENTIAL_JSON")}"
+    credentials = "${file("credentials.json")}"
     project     = "[INSERT_GOOGLE_CLOUD_PROJECT_ID]"
 }
 

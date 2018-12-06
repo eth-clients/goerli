@@ -59,11 +59,12 @@ make geth
 You can also deploy Goerli Geth with Terraform in Google Cloud. Here are the steps below:
 
 1. Install terraform https://learn.hashicorp.com/terraform/getting-started/install#installing-terraform.
-2. *cd geth/terraform*
-3. Put the appropiate info in *goerli.tf* file
-4. Then do *terraform init*
-5. And *terraform apply*
-6. You should see your instance deployed in Google Cloud Compute Engine Dashboard.
+2. Get google cloud credentials https://cloud.google.com/video-intelligence/docs/common/auth
+3. And put the *credentials.json* inside *terraform* directory
+4. Put the appropiate info in *goerli.tf* file
+5. Then do *terraform init*
+6. And *terraform apply*
+7. You should see your instance deployed in Google Cloud Compute Engine Dashboard.
 
 ##### Parity-Ethereum (work in progress)
 
