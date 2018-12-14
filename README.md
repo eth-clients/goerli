@@ -1,14 +1,16 @@
-# Görli Testnet
-The `--goerli` testnet configuration. [![Görli Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
+# {Görli|Kotti} Testnet
+The `--goerli` and `--kotti` testnet configurations. [![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
 
-There are many Ethereum testnets available for experimenting with smart contracts and deploying decentralised applications before going live on the main Ethereum network. However, there is no testnet available that is both widely usable across all client implementations, and robust enough to guarantee consistent availability and high reliability. This is what **Görli** tries to be. Read more on the motivation in the [Görli Testnet Proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
+There are many Ethereum testnets available for experimenting with smart contracts and deploying decentralised applications before going live on the main Ethereum network. However, there is no testnet available that is both widely usable across all client implementations, and robust enough to guarantee consistent availability and high reliability. This is what **Görli** and **Kotti** try to be. Read more on the motivation in the [Testnet Proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
+
+_Note: Neither Görli nor Kotti are launched yet. There is a pre-testnet configuration available below helping all interested parties to test the integration prior official launch._
 
 ### Meta data
 
-The current Görli testnet is to be considered pre-testnet v0.2 which is templated on the Clique engine, it might break any time.
+The current testnet is to be considered pre-testnet v0.2 which is templated on the Clique engine, it might break any time.
 
-- Name: Görli
-- Machine readable name: `goerli`
+- Name: (pre)Görli
+- Machine-readable name: `(pre)goerli`
 - Stage: _pre-testnet_
   - PoA Engine: `clique`
   - Epoch interval: `30000`
