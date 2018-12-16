@@ -38,3 +38,8 @@ Or connecting to the network:
 ```
 ./build/bin/geth --goerli console
 ```
+my personal comment, as posted before
+
+as i see it, in any chain during recent operations some "questions" came up,
+and some admins as well as dapp-writers and contract designers might repeat "their specific question" within a "more restrictive" environment with the possibility to learn from seen results, and being able to revert.
+
