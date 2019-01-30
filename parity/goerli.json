@@ -11,7 +11,7 @@
 	},
 	"params":{
 		"accountStartNonce":"0x0",
-		"chainID":"0x6",
+		"chainID":"0x5",
 		"eip140Transition":"0x0",
 		"eip145Transition":"0x0",
 		"eip150Transition":"0x0",
@@ -31,7 +31,7 @@
 		"maxCodeSizeTransition":"0x0",
 		"maximumExtraDataSize":"0xffff",
 		"minGasLimit":"0x1388",
-		"networkID":"0x6"
+		"networkID":"0x5"
 	},
 	"genesis":{
 		"author":"0x0000000000000000000000000000000000000000",

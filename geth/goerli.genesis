@@ -792,16 +792,16 @@
       "balance":"0x1"
     },
     "4c2ae482593505f0163cdefc073e81c63cda4107": {
-      "balance": "0x152D02C7E14AF6800000"
+      "balance": "0x152d02c7e14af6800000"
     },
     "a8e8f14732658e4b51e8711931053a8a69baf2b1": {
-      "balance": "0x152D02C7E14AF6800000"
+      "balance": "0x152d02c7e14af6800000"
     },
     "d9a5179f091d85051d3c982785efd1455cec8699": {
-      "balance": "0x84595161401484A000000"
+      "balance": "0x84595161401484a000000"
     },
     "e0a2bd4258d2768837baa26a28fe71dc079f84c7": {
-      "balance": "0x4A47E3C12448F4AD000000"
+      "balance": "0x4a47e3c12448f4ad000000"
     }
   },
   "number":"0x0",
