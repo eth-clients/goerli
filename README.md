@@ -3,26 +3,22 @@ The `--goerli` and `--kotti` testnet configurations. [![Chat on Gitter](https://
 
 There are many Ethereum testnets available for experimenting with smart contracts and deploying decentralised applications before going live on the main Ethereum network. However, there is no testnet available that is both widely usable across all client implementations, and robust enough to guarantee consistent availability and high reliability. This is what **Görli** and **Kotti** try to be. Read more on the motivation in the [Testnet Proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
 
-_Note: Neither Görli nor Kotti are launched yet. There is a pre-testnet configuration available below helping all interested parties to test the integration prior official launch._
+### Meta data: Görli
 
-### Meta data
-
-The current testnet is to be considered pre-testnet v0.2 which is templated on the Clique engine, it might break any time.
-
-- Name: (pre)Görli
-- Machine-readable name: `(pre)goerli`
-- Stage: _pre-testnet_
+- Name: Görli
+- Machine-readable name: `goerli`
+- Stage: _to be launched_
   - PoA Engine: `clique`
   - Epoch interval: `30000`
   - Step period: `15`
-  - Genesis hash: `0xfa57319d09fd8a32faaf18d338c8a925a5a7975285bf29ecd024e083cba8abb1`
-  - Network ID: `6284`
-  - Chain ID: `6284`
+  - Genesis hash: `0xbf7e331f7f7c1dd2e05159666b3bf8bc7a8a3a9eb1d518969eab529dd9b88c1a`
+  - Network ID: `5`
+  - Chain ID: `5`
   - Homestead: `0`
   - Byzantium: `0`
   - Constantinople: `0`
+  - Petersfork: `0`
 - Status Dashboard: https://stats.goerli.net/
-- Backup Dashboard: http://ethstats.goerli.ethberl.in:3000/
 - Block Explorer: https://blockscout.com/eth/goerli/
 - Backup Explorer: https://explorer.goerli.net/
 - Gitter: https://gitter.im/goerli/testnet/
@@ -33,9 +29,30 @@ Please see [goerli.json](parity/goerli.json) for a chain specification compatibl
 
 Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 
+### Meta data: Kotti (Classic)
+
+- Name: Kotti (Classic)
+- Machine-readable name: `kotti`
+- Stage: _launched_
+  - PoA Engine: `clique`
+  - Epoch interval: `30000`
+  - Step period: `15`
+  - Genesis hash: `0x14c2283285a88fe5fce9bf5c573ab03d6616695d717b12a127188bcacfc743c4`
+  - Network ID: `6`
+  - Chain ID: `6`
+  - Homestead: `0`
+- Status Dashboard: https://stats.kotti.goerli.net/
+- Gitter: https://gitter.im/goerli/kotti/
+
+Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Pantheon or Geth.
+
+Please see [kotti.json](parity/kotti.json) for a chain specification compatible with Nethermind or Parity Ethereum.
+
+Please see extract bootnodes from the Parity chain spec if you fail connecting to the network.
+
 ### Connecting the clients
 
-All clients supporting the Clique engine (EIP-225) are able to sync Görli.
+All clients supporting the Clique engine (EIP-225) are able to sync with Görli or Kotti.
 
 ##### Go-Ethereum
 
@@ -46,7 +63,7 @@ You can connect to the bootnodes by copying `./geth/static-nodes.json` into the 
 
 ```
 geth init ./geth/goerli.genesis
-geth --networkid 6284
+geth --networkid 5
 ```
 
 Don't forget to either specify bootnodes at startup or add them via console, see [bootnodes.txt](bootnodes.txt).
@@ -58,8 +75,7 @@ make geth
 ./build/bin/geth --goerli
 ```
 
-**You can also deploy Goerli Geth with Terraform in Google Cloud. Follow this guide:**  
-https://medium.com/chainsafe-systems/deployment-automation-for-goerli-testnet-in-10-minutes-5212cef5542a
+You can also deploy Goerli Geth with Terraform in Google Cloud. Follow [this guide](https://medium.com/chainsafe-systems/deployment-automation-for-goerli-testnet-in-10-minutes-5212cef5542a).
 
 
 ##### Parity-Ethereum (work in progress)
@@ -69,7 +85,7 @@ Clique support in Parity Ethereum is still work in progress, but syncing the cha
 ```
 git clone https://github.com/goerli/parity-goerli.git
 cd parity-goerli/
-git checkout clique-v2  # or latest release on https://github.com/goerli/parity-goerli/releases
+git checkout clique-v4  # or latest release on https://github.com/goerli/parity-goerli/releases
 cargo build --release --features final
 ```
 
@@ -81,10 +97,10 @@ Connect to Görli using the experimental Clique engine:
 
 ##### Pantheon
 
-Connect to Görli using the Geth genesis file and network ID 6284:
+Connect to Görli using the Geth genesis file and network ID 5:
 
 ```
-pantheon --genesis=./geth/goerli.genesis --network-id=6284
+pantheon --genesis=./geth/goerli.genesis --network-id=5
 ```
 
 ##### Nethermind
