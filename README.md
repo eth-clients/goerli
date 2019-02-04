@@ -7,7 +7,7 @@ There are many Ethereum testnets available for experimenting with smart contract
 
 - Name: Görli
 - Machine-readable name: `goerli`
-- Stage: _to be launched_
+- Stage: _launched_
   - PoA Engine: `clique`
   - Epoch interval: `30000`
   - Step period: `15`
@@ -56,27 +56,9 @@ All clients supporting the Clique engine (EIP-225) are able to sync with Görli 
 
 ##### Go-Ethereum
 
-You can connect Geth to Görli using the genesis provided in this repository:
+You can connect Geth to Görli by executing `geth --goerli`. [go-ethereum/#18121](https://github.com/ethereum/go-ethereum/pull/18121)
 
-Note on Bootnodes:
-You can connect to the bootnodes by copying `./geth/static-nodes.json` into the data directory (commonly .ethereum) and then run the steps below.
-
-```
-geth init ./geth/goerli.genesis
-geth --networkid 5
-```
-
-Don't forget to either specify bootnodes at startup or add them via console, see [bootnodes.txt](bootnodes.txt).
-
-A pull request for Görli is pending at [go-ethereum#18121](https://github.com/ethereum/go-ethereum/pull/18121) which will allow to simply run:
-
-```
-make geth
-./build/bin/geth --goerli
-```
-
-You can also deploy Goerli Geth with Terraform in Google Cloud. Follow [this guide](https://medium.com/chainsafe-systems/deployment-automation-for-goerli-testnet-in-10-minutes-5212cef5542a).
-
+You can connect Multi-Geth to Kotti by executing `geth --kotti`. [multi-geth/#17](https://github.com/ethoxy/multi-geth/pull/17)
 
 ##### Parity-Ethereum (work in progress)
 
@@ -85,7 +67,6 @@ Clique support in Parity Ethereum is still work in progress, but syncing the cha
 ```
 git clone https://github.com/goerli/parity-goerli.git
 cd parity-goerli/
-git checkout clique-v4  # or latest release on https://github.com/goerli/parity-goerli/releases
 cargo build --release --features final
 ```
 
@@ -95,17 +76,21 @@ Connect to Görli using the experimental Clique engine:
 ./target/release/parity --chain goerli
 ```
 
+Connect to Kotti using the experimental Clique engine:
+
+```
+./target/release/parity --chain kotti
+```
+
+WIP - Track progress in [parity-ethereum/#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
+
 ##### Pantheon
 
-Connect to Görli using the Geth genesis file and network ID 5:
-
-```
-pantheon --genesis=./geth/goerli.genesis --network-id=5
-```
+Connect to Görli using Pantheon by executing `pantheon --network=goerli`. [pantheon/#717](https://github.com/PegaSysEng/pantheon/pull/717)
 
 ##### Nethermind
 
-Connect to Görli by using the provided goerli.cfg included in Nethermind 0.9.1:
+Connect to Görli by using the provided goerli.cfg included in Nethermind 0.9.1: [nethermind/#234](https://github.com/NethermindEth/nethermind/pull/234)
 
 ```
 dotnet run --config configs/goerli.cfg
@@ -113,7 +98,7 @@ dotnet run --config configs/goerli.cfg
 
 ##### EthereumJS
 
-Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1:
+Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1: [ethereumjs-common/#31](https://github.com/ethereumjs/ethereumjs-common/pull/31)
 
 ```
 ./bin/cli.js --network goerli
@@ -131,4 +116,4 @@ The 2-of-3 multi-signature wallet is controlled by the following parties ([Proof
 - Afri Schoedon (@5chdn)
 - María Paula Fernández (@MPtherealMVP)
 
-Read more about our current open bounties in the [The Görli Testnet Initiative Bounties Announcement](https://dev.to/5chdn/the-grli-testnet-initiative-bounties-announcement-3gp)
+Read more about our current open bounties in the [The Görli Testnet Initiative Bounties Announcement](https://dev.to/5chdn/the-grli-testnet-initiative-bounties-announcement-3gp) and check [Gitcoin](https://gitcoin.co/profile/goerli).
