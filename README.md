@@ -1,11 +1,11 @@
 # Görli Testnet
 The goerli testnet configuration.
 
-Stage: pre-test testnet. Dashboard: https://stats.goerli.net
+Stage: testnet. Dashboard: https://stats.goerli.net
 
 ### Parity Ethereum
 
-Any Parity Ethereum version will do:
+Parity Ethereum version available here https://github.com/goerli/parity-goerli/releases/ will do:
 
 ```
 parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
