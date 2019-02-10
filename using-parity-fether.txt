@@ -1,0 +1,26 @@
+While researching a little around,
+ifound out, that parity fether also works with goerli 
+but only in a certain constellation (which i want to describe) it works permanently.
+easy steps to follow:
+1. start your goerli node, with json-enabled like e.g. 
+(--jsonrpc-apis web3,eth,net,parity,rpc,parity_set,personal)
+
+wait until you see the node starting looking as follows
+2019-02-08 10:06:56  Starting Parity-Ethereum/v2.4.0-unstable/x86_64-linux-gnu/rustc1.32.0
+2019-02-08 10:06:56  Keys path /home/user001/.local/share/io.parity.ethereum/keys/goerli
+2019-02-08 10:06:56  DB path /home/user001/.local/share/io.parity.ethereum/chains/goerli/db/b1d518969eab529d
+2019-02-08 10:06:56  State DB configuration: fast
+2019-02-08 10:06:56  Operating mode: active
+2019-02-08 10:06:59  Configured for Goerli Testnet using Clique engine
+2019-02-08 10:07:00  Public node URL: enode://df51b43e3c0a1734ae85b6ea8fad2198a30795934a5bd8803b92d060b3cb134299a28fab0fce770521b15c7e2043429ee695ad2e994b43447cd9892142f0ca57@192.168.0.44:30308
+2019-02-08 10:07:00  Listening for new connections on 127.0.0.1:8546.
+2019-02-08 10:07:05  Syncing    #2593
+
+and so on-
+
+on another terminal you only type in "fether"-
+
+
+viola 
+
+we are done
