@@ -1,7 +1,8 @@
 While researching a little around,
-ifound out, that parity fether also works with goerli 
-but only in a certain constellation (which i want to describe) it works permanently.
+i found out, that parity fether also works with goerli 
+but only in a one  constellation (which i want to describe) it works permanently.
 easy steps to follow:
+
 1. start your goerli node, with json-enabled like e.g. 
 (--jsonrpc-apis web3,eth,net,parity,rpc,parity_set,personal)
 
@@ -16,18 +17,18 @@ wait until you see the node starting looking as follows
 2019-02-08 10:07:00  Listening for new connections on 127.0.0.1:8546.
 2019-02-08 10:07:05  Syncing    #2593
 
-and so on-
+and so on- wait 30 seconds until the node finds peers and works
 
-on another terminal you only type in "fether"-
+2. start another terminal
+3. type in "fether"-
+4. wait- and ignore all notifications
 
-
-viola 
+5. viola!
 
 as we look into the screenshot
 https://raw.githubusercontent.com/roninkaizen/testnet/master/Bildschirmfoto%20zu%202019-02-10%2015-14-25.png
-we can see a fether, notifying the user that it skipped, running a local node-
+we can see a fether, notifying the user that it skipped "itself" running a local node-
 
 as tried out 4 times successful to transfer it also worked.
-But only the way described-
+the way described-
 nice sunday to you!
-
