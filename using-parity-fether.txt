@@ -23,4 +23,11 @@ on another terminal you only type in "fether"-
 
 viola 
 
-we are done
+as we look into the screenshot
+https://raw.githubusercontent.com/roninkaizen/testnet/master/Bildschirmfoto%20zu%202019-02-10%2015-14-25.png
+we can see a fether, notifying the user that it skipped, running a local node-
+
+as tried out 4 times successful to transfer it also worked.
+But only the way described-
+nice sunday to you!
+
