@@ -26,9 +26,13 @@ and so on- wait 30 seconds until the node finds peers and works
 5. viola!
 
 as we look into the screenshot
-https://raw.githubusercontent.com/roninkaizen/testnet/master/Bildschirmfoto%20zu%202019-02-10%2015-14-25.png
+https://github.com/roninkaizen/testnet/blob/master/fether-goerli-from-console-we-come.PNG
 we can see a fether, notifying the user that it skipped "itself" running a local node-
 
 as tried out 4 times successful to transfer it also worked.
 the way described-
 nice sunday to you!
+
+btw. as proof to have main-net and goerli-net with fether enabled, i have put another 
+screen of that to see
+https://github.com/roninkaizen/testnet/blob/master/fether-goerli-mainnet-parallel.PNG
