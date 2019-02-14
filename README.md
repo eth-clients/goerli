@@ -1,11 +1,15 @@
 # {Görli|Kotti} Testnet
 The `--goerli` and `--kotti` cross-client proof-of-authority testnet configurations. [![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
 
-There are many Ethereum testnets available for experimenting with smart contracts and deploying decentralised applications before going live on the main Ethereum network. However, there is no testnet available that is both widely usable across all client implementations, and robust enough to guarantee consistent availability and high reliability. This is what **Görli** tries to be for Ethereum and **Kotti** for Ethereum Classic. Read more on the motivation in the [Testnet Proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
+- https://goerli.net
+
+There are many Ethereum testnets available for experimenting with smart contracts and deploying decentralised applications before going live on the main Ethereum network. However, there is no testnet available that is both widely usable across all client implementations, and robust enough to guarantee consistent availability and high reliability. This is what **Görli** tries to be for Ethereum and **Kotti** for Ethereum Classic. Read more on the motivation in the [Testnet Proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf).
 
 ### Meta data: Görli
 
-- Name: Görli
+See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-started-goerli-testnet/).
+
+- Name: **Görli**
 - Machine-readable name: `goerli`
 - Stage: _launched_
   - PoA Engine: `clique`
@@ -18,9 +22,22 @@ There are many Ethereum testnets available for experimenting with smart contract
   - Byzantium: `0`
   - Constantinople: `0`
   - Petersfork: `0`
-- Status Dashboard: https://stats.goerli.net/
-- Block Explorer: https://blockscout.com/eth/goerli/
-- Backup Explorer: https://explorer.goerli.net/
+- Status Dashboard: 
+  - https://stats.goerli.net/
+  - https://goerli.ethstats.io/
+- Block Explorer: 
+  - https://goerli.etherscan.io/
+  - https://blockscout.com/eth/goerli/
+  - https://explorer.goerli.net/
+- Faucets:
+  - https://bridge.goerli.com/
+  - https://faucet.goerli.mudit.blog/
+  - https://goerli-faucet.slock.it/
+- Open RPC Endpoints:
+  - http://goerli.blockscout.com
+  - http://goerli.prylabs.net
+  - https://rpc.goerli.mudit.blog
+  - https://rpc.slock.it/goerli
 - Gitter: https://gitter.im/goerli/testnet/
 
 Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Pantheon or Geth.
@@ -31,7 +48,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 
 ### Meta data: Kotti (Classic)
 
-- Name: Kotti (Classic)
+- Name: **Kotti** (Classic)
 - Machine-readable name: `kotti`
 - Stage: _launched_
   - PoA Engine: `clique`
