@@ -27,6 +27,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://goerli.ethstats.io/
 - Block Explorer: 
   - https://goerli.etherscan.io/
+  - https://goerli.ethstats.io/
   - https://blockscout.com/eth/goerli/
   - https://explorer.goerli.net/
 - Faucets:
