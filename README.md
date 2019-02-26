@@ -59,6 +59,8 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Chain ID: `6`
   - Homestead: `0`
 - Status Dashboard: https://stats.kotti.goerli.net/
+- Open RPC Endpoints:
+  - https://kotti.ethereumclassic.network
 - Gitter: https://gitter.im/goerli/kotti/
 
 Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Pantheon or Geth.
