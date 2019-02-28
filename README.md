@@ -24,9 +24,9 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - Petersfork: `0`
 - Status Dashboard: 
   - https://stats.goerli.net/
-  - https://goerli.ethstats.io/
 - Block Explorer: 
   - https://goerli.etherscan.io/
+  - https://goerli.ethstats.io/
   - https://blockscout.com/eth/goerli/
   - https://explorer.goerli.net/
 - Faucets:
