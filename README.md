@@ -81,29 +81,11 @@ You can connect Geth to Görli by executing `geth --goerli`. [go-ethereum/#18121
 
 You can connect Multi-Geth to Kotti by executing `geth --kotti`. [multi-geth/#17](https://github.com/ethoxy/multi-geth/pull/17)
 
-##### Parity-Ethereum (work in progress)
+##### Parity-Ethereum
 
-Clique support in Parity Ethereum is still work in progress, but syncing the chain and all other Parity Ethereum features are available: [goerli/parity-goerli](https://github.com/goerli/parity-goerli)
+Connect to Görli using the Clique engine: `parity --chain goerli` [parity-ethereum#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
 
-```
-git clone https://github.com/goerli/parity-goerli.git
-cd parity-goerli/
-cargo build --release --features final
-```
-
-Connect to Görli using the experimental Clique engine:
-
-```
-./target/release/parity --chain goerli
-```
-
-Connect to Kotti using the experimental Clique engine:
-
-```
-./target/release/parity --chain kotti
-```
-
-WIP - Track progress in [parity-ethereum/#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
+Connect to Kotti using the Clique engine: `parity --chain kotti` [parity-ethereum#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
 
 ##### Pantheon
 
