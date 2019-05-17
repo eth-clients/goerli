@@ -61,7 +61,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Homestead: `0`
 - Status Dashboard: https://stats.kotti.goerli.net/
 - Block Explorer:
-  - http://kottiexplorer.ethernode.io/home
+  - http://kottiexplorer.ethernode.io/
 - Open RPC Endpoints:
   - https://kotti.ethereumclassic.network
 - Gitter: https://gitter.im/goerli/kotti/
