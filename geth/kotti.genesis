@@ -1,11 +1,16 @@
 {
   "config": {
+    "networkId": 6,
     "chainId": 6,
     "homesteadBlock": 0,
+    "eip7FBlock": null,
     "eip150Block": 0,
     "eip150Hash": "0x14c2283285a88fe5fce9bf5c573ab03d6616695d717b12a127188bcacfc743c4",
     "eip155Block": 0,
+    "eip158Block": 716617,
+    "byzantiumBlock": 716617,
     "disposalBlock": 0,
+    "constantinopleBlock": null,
     "ecip1017EraRounds": 5000000,
     "eip160Block": 0,
     "ecip1010PauseBlock": 0,
