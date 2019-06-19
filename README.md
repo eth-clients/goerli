@@ -59,6 +59,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Network ID: `6`
   - Chain ID: `6`
   - Homestead: `0`
+  - Atlantis: `716_617`
 - Status Dashboard: https://stats.kotti.goerli.net/
 - Block Explorer:
   - http://kottiexplorer.ethernode.io/
@@ -66,7 +67,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - https://kotti.ethereumclassic.network
 - Gitter: https://gitter.im/goerli/kotti/
 
-Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Pantheon or Geth.
+Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Multi Geth.
 
 Please see [kotti.json](parity/kotti.json) for a chain specification compatible with Nethermind or Parity Ethereum.
 
