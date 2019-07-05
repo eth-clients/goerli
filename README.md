@@ -64,7 +64,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 - Block Explorer:
   - http://kottiexplorer.ethernode.io/
 - Open RPC Endpoints:
-  - https://kotti.ethereumclassic.network
+  - https://www.ethercluster.com/kotti
 - Gitter: https://gitter.im/goerli/kotti/
 
 Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Multi Geth.
