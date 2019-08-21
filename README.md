@@ -25,6 +25,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
 - Status Dashboard: 
   - https://stats.goerli.net/
   - https://goerli.ethstats.io/
+  - https://goerli.eth.6120.eu/
 - Block Explorer: 
   - https://goerli.etherscan.io/
   - https://goerli.ethstats.io/
@@ -39,6 +40,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - http://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
+  - wss://goerli.eth.6120.eu/ws (via https://6120.eu)
 - Gitter: https://gitter.im/goerli/testnet/
 
 Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Pantheon or Geth.
