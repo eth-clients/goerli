@@ -65,6 +65,9 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 - Status Dashboard: https://stats.kotti.goerli.net/
 - Block Explorer:
   - http://kottiexplorer.ethernode.io/
+- Faucets:
+  - http://kottifaucet.me/
+  - http://kotti.little-dripper.com/
 - Open RPC Endpoints:
   - https://www.ethercluster.com/kotti
 - Gitter: https://gitter.im/goerli/kotti/
