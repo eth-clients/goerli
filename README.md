@@ -41,5 +41,20 @@ Or connecting to the network:
 my personal comment, as posted before
 
 as i see it, in any chain during recent operations some "questions" came up,
-and some admins as well as dapp-writers and contract designers might repeat "their specific question" within a "more restrictive" environment with the possibility to learn from seen results, and being able to revert.
+and some admins as well as dapp-writers and contract designers might repeat "their specific question" within a "more restrictive" environment with the possibility to learn from seen results, and being able to correct or simplify.
 
+Sometimes i post here some updated static-nodes.json files or some dumps of seen and used functional nodes,
+it also helps to work on cascaded networks.
+
+I have students learning from my experiences,
+feel free to donate, my adress is public. As i receive named donations i will 
+be able to progress my work with them easier ways to establish knowledge and interest about ethereum.
+
+yours
+
+ronin-kaizen
+14.09.2019, 19.12cest
+
+PS: all my respect goes out to the dev-studios out there, working on excellent code,
+willing to be tested by people like me; we work on the same idea,
+the more critical and excellence oriented we work, the faster we will see results.
