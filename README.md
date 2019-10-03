@@ -43,7 +43,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - wss://goerli.eth.6120.eu/ws (via https://6120.eu)
 - Gitter: https://gitter.im/goerli/testnet/
 
-Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Pantheon or Geth.
+Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Hyperledger Besu (formerly Pantheon) or Geth.
 
 Please see [goerli.json](parity/goerli.json) for a chain specification compatible with Nethermind or Parity Ethereum.
 
@@ -94,9 +94,9 @@ Connect to Görli using the Clique engine: `parity --chain goerli` [parity-ether
 
 Connect to Kotti using the Clique engine: `parity --chain kotti` [parity-ethereum#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
 
-##### Pantheon
+##### Hyperledger Besu (formerly Pantheon)
 
-Connect to Görli using Pantheon by executing `pantheon --network=goerli`. [pantheon/#717](https://github.com/PegaSysEng/pantheon/pull/717)
+Connect to Görli using Hyperledger Besu by executing `besu --network=goerli`. [pantheon/#717](https://github.com/PegaSysEng/pantheon/pull/717)
 
 ##### Nethermind
 
