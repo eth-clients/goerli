@@ -64,6 +64,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Atlantis: `716_617`
 - Status Dashboard: https://stats.kotti.goerli.net/
 - Block Explorer:
+  -https://explorer.jade.builders/?network=kotti
 - Faucets:
   - http://kottifaucet.me/
   - http://kotti.little-dripper.com/
