@@ -10,6 +10,7 @@
     "byzantiumBlock":0,
     "constantinopleBlock":0,
     "petersburgBlock":0,
+    "istanbulBlock":1561651,
     "clique":{
       "period":15,
       "epoch":30000
