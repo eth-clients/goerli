@@ -62,6 +62,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Chain ID: `6`
   - Homestead: `0`
   - Atlantis: `716_617`
+  - Agharta: `1_705_549`
 - Status Dashboard: https://stats.kotti.goerli.net/
 - Block Explorer:
   -https://explorer.jade.builders/?network=kotti
