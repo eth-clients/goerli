@@ -22,6 +22,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - Byzantium: `0`
   - Constantinople: `0`
   - Petersfork: `0`
+  - Istanbul: `1_561_651`
 - Status Dashboard: 
   - https://stats.goerli.net/
   - https://goerli.ethstats.io/
