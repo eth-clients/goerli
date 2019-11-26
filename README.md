@@ -38,7 +38,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://goerli-faucet.slock.it/
 - Open RPC Endpoints:
   - http://goerli.blockscout.com
-  - http://goerli.prylabs.net
+  - https://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
   - wss://goerli.eth.6120.eu/ws (via https://6120.eu)
