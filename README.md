@@ -26,18 +26,13 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
 - Status Dashboard: 
   - https://stats.goerli.net/
   - https://goerli.ethstats.io/
-  - https://goerli.eth.6120.eu/
 - Block Explorer: 
   - https://goerli.etherscan.io/
-  - https://goerli.ethstats.io/
-  - https://blockscout.com/eth/goerli/
-  - https://explorer.goerli.net/
+  - https://expedition.dev/?network=goerli
 - Faucets:
-  - https://bridge.goerli.com/
   - https://faucet.goerli.mudit.blog/
   - https://goerli-faucet.slock.it/
 - Open RPC Endpoints:
-  - http://goerli.blockscout.com
   - https://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
