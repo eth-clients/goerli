@@ -60,13 +60,19 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Atlantis: `716_617`
   - Agharta: `1_705_549`
   - Aztlán: `2_058_191`
-- Status Dashboard: https://stats.kotti.goerli.net/
+- Status Dashboard: 
+  - https://stats.kotti.goerli.net/
+  - https://kotti.etcnodes.org/
+  - http://kotti.etcstats.org/
 - Block Explorer:
+  - https://blockscout.com/etc/kotti/
   - http://kotti.etccoopexplorer.com/
-  - https://explorer.jade.builders/?network=kotti
+  - https://expedition.dev/?network=kotti
+  - http://kotti.ethereumtest.net/
 - Faucets:
   - http://kottifaucet.me/
   - http://kotti.little-dripper.com/
+  - http://kotti.etherdrip.net/
 - Open RPC Endpoints:
   - https://www.ethercluster.com/kotti
 - Gitter: https://gitter.im/goerli/kotti/
