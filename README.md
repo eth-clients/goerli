@@ -58,3 +58,6 @@ ronin-kaizen
 PS: all my respect goes out to the dev-studios out there, working on excellent code,
 willing to be tested by people like me; we work on the same idea-
 the more critical and excellence-oriented we work, the faster we will see and get results.
+
+test-eth on demand (:
+visit https://gitter.im/goerli/testnet for requesting
