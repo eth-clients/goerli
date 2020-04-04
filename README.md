@@ -59,7 +59,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Homestead: `0`
   - Atlantis: `716_617`
   - Agharta: `1_705_549`
-  - Aztlán: `2_058_191`
+  - Phoenix: `2_200_013`
 - Status Dashboard: 
   - https://stats.kotti.goerli.net/
   - https://kotti.etcnodes.org/
