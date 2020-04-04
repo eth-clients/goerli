@@ -59,7 +59,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Homestead: `0`
   - Atlantis: `716_617`
   - Agharta: `1_705_549`
-  - Aztlán: `2_058_191`
+  - Phoenix: `2_200_013`
 - Status Dashboard: 
   - https://stats.kotti.goerli.net/
   - https://kotti.etcnodes.org/
@@ -89,23 +89,26 @@ All clients supporting the Clique engine (EIP-225) are able to sync with Görli 
 
 ##### Go-Ethereum
 
-You can connect Geth to Görli by executing `geth --goerli`. [go-ethereum/#18121](https://github.com/ethereum/go-ethereum/pull/18121)
+You can connect Geth to Görli by executing `geth --goerli`. https://github.com/ethereum/go-ethereum/releases
 
-You can connect Multi-Geth to Kotti by executing `geth --kotti`. [multi-geth/#17](https://github.com/ethoxy/multi-geth/pull/17)
+You can connect Core-Geth to Kotti by executing `geth --kotti`. https://github.com/etclabscore/core-geth/releases
 
-##### Parity-Ethereum
 
-Connect to Görli using the Clique engine: `parity --chain goerli` [parity-ethereum#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
+##### Open-Ethereum (formerly Parity Ethereum)
 
-Connect to Kotti using the Clique engine: `parity --chain kotti` [parity-ethereum#9981](https://github.com/paritytech/parity-ethereum/pull/9981)
+Connect to Görli using the Clique engine: `openethereum --chain goerli` https://github.com/openethereum/openethereum/releases
+
+Connect to Kotti using the Clique engine: `openethereum --chain kotti`
 
 ##### Hyperledger Besu (formerly Pantheon)
 
-Connect to Görli using Hyperledger Besu by executing `besu --network=goerli`. [pantheon/#717](https://github.com/PegaSysEng/pantheon/pull/717)
+Connect to Görli using Hyperledger Besu by executing `besu --network=goerli`. https://github.com/hyperledger/besu/releases
+
+Connect to Kotti using Hyperledger Besu by executing `besu --network=kotti`.
 
 ##### Nethermind
 
-Connect to Görli by using the provided goerli.cfg included in Nethermind 0.9.1: [nethermind/#234](https://github.com/NethermindEth/nethermind/pull/234)
+Connect to Görli by using the provided goerli.cfg included in Nethermind 0.9.1: https://github.com/NethermindEth/nethermind/releases
 
 ```
 dotnet run --config configs/goerli.cfg
@@ -113,7 +116,7 @@ dotnet run --config configs/goerli.cfg
 
 ##### EthereumJS
 
-Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1: [ethereumjs-common/#31](https://github.com/ethereumjs/ethereumjs-common/pull/31)
+Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1: https://github.com/ethereumjs/ethereumjs-common/releases
 
 ```
 ./bin/cli.js --network goerli
