@@ -1,4 +1,4 @@
-# {Görli|Kotti} Testnet
+# {Görli,Kotti} Testnet
 The `--goerli` and `--kotti` cross-client proof-of-authority testnet configurations. [![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/goerli/testnet)
 
 - https://goerli.net
@@ -30,6 +30,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://goerli.etherscan.io/
   - https://expedition.dev/?network=goerli
 - Faucets:
+  - https://goerli-faucet.dappnode.net/
   - https://faucet.goerli.mudit.blog/
   - https://goerli-faucet.slock.it/
 - Open RPC Endpoints:
