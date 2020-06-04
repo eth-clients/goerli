@@ -26,11 +26,6 @@
     "eip1884FBlock": 2200013,
     "eip2028FBlock": 2200013,
     "eip2200FBlock": 2200013,
-    "ecip1010PauseBlock": 0,
-    "ecip1010Length": 2000000,
-    "ecip1017FBlock": 5000000,
-    "ecip1017EraRounds": 5000000,
-    "disposalBlock": 0,
     "clique": { "period": 15, "epoch": 30000 },
     "requireBlockHashes": {
       "0": "0x14c2283285a88fe5fce9bf5c573ab03d6616695d717b12a127188bcacfc743c4"
