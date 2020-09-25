@@ -129,10 +129,8 @@ Run a node, [report bugs](https://github.com/goerli/testnet/issues), and join ou
 
 Donations for development and hosting can be done through our mini-DAO at [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
 
-The 2-of-3 multi-signature wallet is controlled by the following parties ([Proof of Twitter](https://twitter.com/5chdn/status/1063851317028954112), [Proof of Github](https://github.com/goerli/pm/blob/master/FINANCE.md)):
+The 2-of-3 multi-signature wallet is controlled by the following parties:
 
 - Aidan Hyman (@chainsafeth)
-- Afri Schoedon (@5chdn)
+- Afri Schoedon (@q9f)
 - María Paula Fernández (@MPtherealMVP)
-
-Read more about our current open bounties in the [The Görli Testnet Initiative Bounties Announcement](https://dev.to/5chdn/the-grli-testnet-initiative-bounties-announcement-3gp) and check [Gitcoin](https://gitcoin.co/profile/goerli).
