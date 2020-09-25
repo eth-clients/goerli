@@ -25,19 +25,17 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - Istanbul: `1_561_651`
 - Status Dashboard: 
   - https://stats.goerli.net/
-  - https://goerli.ethstats.io/
 - Block Explorer: 
   - https://goerli.etherscan.io/
   - https://expedition.dev/?network=goerli
 - Faucets:
   - https://goerli-faucet.dappnode.net/
   - https://faucet.goerli.mudit.blog/
-  - https://goerli-faucet.slock.it/
 - Open RPC Endpoints:
   - https://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
-  - wss://goerli.eth.6120.eu/ws (via https://6120.eu)
+  - https://www.ethercluster.com/goerli
 - Gitter: https://gitter.im/goerli/testnet/
 
 Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Hyperledger Besu (formerly Pantheon) or Geth.
@@ -62,18 +60,12 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
   - Agharta: `1_705_549`
   - Phoenix: `2_200_013`
 - Status Dashboard: 
-  - https://stats.kotti.goerli.net/
-  - https://kotti.etcnodes.org/
-  - http://kotti.etcstats.org/
+  - https://kotti.goerli.net/
 - Block Explorer:
   - https://blockscout.com/etc/kotti/
-  - http://kotti.etccoopexplorer.com/
   - https://expedition.dev/?network=kotti
-  - http://kotti.ethereumtest.net/
 - Faucets:
   - http://kottifaucet.me/
-  - http://kotti.little-dripper.com/
-  - http://kotti.etherdrip.net/
 - Open RPC Endpoints:
   - https://www.ethercluster.com/kotti
 - Gitter: https://gitter.im/goerli/kotti/
@@ -94,14 +86,7 @@ You can connect Geth to Görli by executing `geth --goerli`. https://github.com/
 
 You can connect Core-Geth to Kotti by executing `geth --kotti`. https://github.com/etclabscore/core-geth/releases
 
-
-##### Open-Ethereum (formerly Parity Ethereum)
-
-Connect to Görli using the Clique engine: `openethereum --chain goerli` https://github.com/openethereum/openethereum/releases
-
-Connect to Kotti using the Clique engine: `openethereum --chain kotti`
-
-##### Hyperledger Besu (formerly Pantheon)
+##### Hyperledger Besu
 
 Connect to Görli using Hyperledger Besu by executing `besu --network=goerli`. https://github.com/hyperledger/besu/releases
 
