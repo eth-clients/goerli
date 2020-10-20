@@ -46,35 +46,7 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 
 ### Meta data: Kotti (Classic)
 
-- Name: **Kotti** (Classic)
-- Machine-readable name: `kotti`
-- Stage: _launched_
-  - PoA Engine: `clique`
-  - Epoch interval: `30000`
-  - Step period: `15`
-  - Genesis hash: `0x14c2283285a88fe5fce9bf5c573ab03d6616695d717b12a127188bcacfc743c4`
-  - Network ID: `6`
-  - Chain ID: `6`
-  - Homestead: `0`
-  - Atlantis: `716_617`
-  - Agharta: `1_705_549`
-  - Phoenix: `2_200_013`
-- Status Dashboard: 
-  - https://kotti.goerli.net/
-- Block Explorer:
-  - https://blockscout.com/etc/kotti/
-  - https://expedition.dev/?network=kotti
-- Faucets:
-  - http://kottifaucet.me/
-- Open RPC Endpoints:
-  - https://www.ethercluster.com/kotti
-- Gitter: https://gitter.im/goerli/kotti/
-
-Please see [kotti.genesis](geth/kotti.genesis) for a genesis file compatible with Multi Geth.
-
-Please see [kotti.json](parity/kotti.json) for a chain specification compatible with Nethermind or Parity Ethereum.
-
-Please see extract bootnodes from the Parity chain spec if you fail connecting to the network.
+The Kotti Classic Testnet configuration and resources moved to its own repository: https://github.com/eth-classic/kotti
 
 ### Connecting the clients
 
