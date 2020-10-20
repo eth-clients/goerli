@@ -36,6 +36,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
   - https://www.ethercluster.com/goerli
+  - https://services.fault.dev
 - Gitter: https://gitter.im/goerli/testnet/
 
 Please see [goerli.genesis](geth/goerli.genesis) for a genesis file compatible with Hyperledger Besu (formerly Pantheon) or Geth.
@@ -46,7 +47,8 @@ Please see [bootnodes.txt](bootnodes.txt) if you fail connecting to the network.
 
 ### Meta data: Kotti (Classic)
 
-The Kotti Classic Testnet configuration and resources moved to its own repository: https://github.com/eth-classic/kotti
+The Kotti Classic Testnet configuration and resources moved to its own repository:
+* https://github.com/eth-classic/kotti
 
 ### Connecting the clients
 
