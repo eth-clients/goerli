@@ -6,16 +6,28 @@ Dashboard: https://stats.goerli.net
 validators annotated 
 
 clique.getSignersAnnotated()
+
 Request complete in 32844940,355μs
+
 [
+
   "0x000000568b9b5a365eaa767d42e74ed88915c204 (POA)",
+
   "0x22ea9f6b28db76a7162054c05ed812deb2f519cd (Pantheon)",
+
   "0x4c2ae482593505f0163cdefc073e81c63cda4107 (Nethermind)",
+
   "0x8b24eb4e6aae906058242d83e51fb077370c4720 (Infura)",
+
   "0x9d525e28fe5830ee92d7aa799c4d21590567b595 (roninkaizen)",
+
   "0xa6dd2974b96e959f2c8930024451a30afec24203 (Ethereum Foundation)",
+
   "0xd9a5179f091d85051d3c982785efd1455cec8699 (Prysm Labs)",
+
   "0xe0a2bd4258d2768837baa26a28fe71dc079f84c7 (Parity)"
+
+
 ]
 
 ### Parity Ethereum
