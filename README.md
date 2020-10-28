@@ -1,12 +1,13 @@
 # Görli Testnet
 The goerli testnet configuration.
 
-Stage: testnet. 
+Stage: ETH1-testnet. PoA, clique-consensus, 
+Start: goerlicon, Berlin
+
 Dashboard: https://stats.goerli.net
 
 clique.getSignersAnnotated()
 
-Request complete in 32844940,355μs
 
 [
 
@@ -28,7 +29,14 @@ Request complete in 32844940,355μs
 
 
 ]
+### besu
 
+besu version available here https://pegasys.tech/solutions/hyperledger-besu/
+
+```besu --network=goerli```
+more detailled description and good starting point for further research
+
+``https://besu.hyperledger.org/en/stable/HowTo/Get-Started/Starting-node/#run-a-node-on-goerli-testnet``
 ### Parity Ethereum
 
 Parity Ethereum version 2.5.13 available here https://github.com/openethereum/openethereum/releases/tag/v2.5.13 will do:
@@ -37,12 +45,17 @@ Parity Ethereum version 2.5.13 available here https://github.com/openethereum/op
 parity --chain goerli
 ```
 
-
 ### OpenEthereum
 
 OpenEthereum version available here https://github.com/openethereum/openethereum/releases
 
 ```openethereum --chain goerli```
+
+### CoreGeth
+
+Coregeth available here https://github.com/etclabscore/core-geth/releases
+
+```geth --chain goerli```
 
 ### Nethermind
 
@@ -53,13 +66,14 @@ and then deflate Nethermind.
 
 ```Nethermind.Runner --config goerli```
 or
+
 ```Nethermind.Laucher``` from the root of the extracted folder
 
-### Geth 
+### Geth/go-ethereum 
 
 geth version available here https://geth.ethereum.org/downloads/
 
-```geth --goerli console```
+```geth --goerli```
 
 all my respect goes out to the dev-studios out there, working on excellent code,
 willing to be tested by people like me; we work on the same idea-
@@ -67,4 +81,4 @@ the more critical and excellence-oriented we work, the faster we will see and ge
 
 test-eth for goerli on demand (: or further questions?
 
-visit https://gitter.im/goerli/testnet for requesting
+visit https://gitter.im/goerli/testnet for requesting/connecting, you are welcome
