@@ -5,59 +5,40 @@ Stage: testnet. Dashboard: https://stats.goerli.net
 
 ### Parity Ethereum
 
-Parity Ethereum version available here https://github.com/goerli/parity-goerli/releases/ will do:
+Parity Ethereum version 2.5.13 available here https://github.com/openethereum/openethereum/releases/tag/v2.5.13 will do:
 
 ```
-parity --chain ./parity/goerli.json --reserved-peers ./bootnodes.txt
+parity --chain goerli
 ```
 
-Or use Parity Goerli: https://github.com/goerli/parity-goerli
 
-```
-git checkout master
-cargo build --release
-./target/release/parity --chain goerli
-```
+### OpenEthereum
 
-### Geth w/ Aura
+OpenEthereum version available here https://github.com/openethereum/openethereum/releases
 
-Source: https://github.com/goerli/go-ethereum-aura
+```openethereum --chain goerli```
 
-Test locally:
+### Nethermind
 
-```
-git checkout aura-dev
-make geth
-rm -rf /tmp/goerli
-./build/bin/geth --datadir /tmp/goerli init ./geth/goerli.genesis
-./build/bin/geth --datadir /tmp/goerli --nodiscover --maxpeers 0 console
-```
+Nethermind version available here https://github.com/NethermindEth/nethermind/releases
 
-Or connecting to the network:
+running ubuntu first enter ```sudo apt-get update && sudo apt-get install libsnappy-dev libc6-dev libc6 unzip``` 
+and then deflate Nethermind.
 
-```
-./build/bin/geth --goerli console
-```
-my personal comment, as posted before
+```Nethermind.Runner --config goerli```
+or
+```Nethermind.Laucher``` from the root of the extracted folder
 
-as i see it, in any chain during recent operations some "questions" came up,
-and some admins as well as dapp-writers and contract designers might repeat "their specific question" within a "more restrictive" environment with the possibility to learn from seen results, and being able to correct or simplify.
+### Geth 
 
-Sometimes i post here some updated static-nodes.json files or some dumps of seen and used functional nodes,
-it also helps to work on cascaded networks.
+geth version available here https://geth.ethereum.org/downloads/
 
-I have students learning from my experiences,
-feel free to donate, my adress is public. As i receive named donations i will 
-be able to progress my work with them easier ways to establish knowledge and interest about ethereum.
+```geth --goerli console```
 
-yours
-
-ronin-kaizen
-14.09.2019, 19.12cest
-
-PS: all my respect goes out to the dev-studios out there, working on excellent code,
+all my respect goes out to the dev-studios out there, working on excellent code,
 willing to be tested by people like me; we work on the same idea-
 the more critical and excellence-oriented we work, the faster we will see and get results.
 
-test-eth on demand (:
+test-eth for goerli on demand (: or further questions?
+
 visit https://gitter.im/goerli/testnet for requesting
