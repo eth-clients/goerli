@@ -29,9 +29,14 @@ clique.getSignersAnnotated()
 
 
 ]
-### besu
 
-besu version available here https://pegasys.tech/solutions/hyperledger-besu/
+
+
+### Hyperledger Besu
+
+Besu version available here https://pegasys.tech/solutions/hyperledger-besu/
+
+Besu requires Java 11+ to compile. Earlier versions are not supported.
 
 ```besu --network=goerli```
 more detailled description and good starting point for further research
@@ -74,6 +79,13 @@ or
 geth version available here https://geth.ethereum.org/downloads/
 
 ```geth --goerli```
+
+### EthereumJS
+
+Connect to Görli by using the provided state and genesis included in EthereumJS 0.6.1: https://github.com/ethereumjs/ethereumjs-common/releases
+
+```./bin/cli.js --network goerli```
+
 
 all my respect goes out to the dev-studios out there, working on excellent code,
 willing to be tested by people like me; we work on the same idea-
