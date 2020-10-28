@@ -3,7 +3,6 @@ The goerli testnet configuration.
 
 Stage: testnet. 
 Dashboard: https://stats.goerli.net
-validators annotated 
 
 clique.getSignersAnnotated()
 
