@@ -86,10 +86,4 @@ Connect to Görli by using the provided state and genesis included in EthereumJS
 
 Run a node, [report bugs](https://github.com/goerli/testnet/issues), and join our [Gitter](https://gitter.im/goerli/testnet)!
 
-Donations for development and hosting can be done through our mini-DAO at [`0x6974df01bf293ab9af66127c03aac79b81d494c7`](https://etherscan.io/address/0x6974df01bf293ab9af66127c03aac79b81d494c7). <3
-
-The 2-of-3 multi-signature wallet is controlled by the following parties:
-
-- Aidan Hyman (@chainsafeth)
-- Afri Schoedon (@q9f)
-- María Paula Fernández (@MPtherealMVP)
+The Goerli Testnet Initiative concluded their work and does no longer accept donations. Thanks for all the support :heart: 2018 - 2020.
