@@ -23,6 +23,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - Constantinople: `0`
   - Petersfork: `0`
   - Istanbul: `1_561_651`
+  - Berlin: `4_333_333`
 - Status Dashboard: 
   - https://stats.goerli.net/
 - Block Explorer: 
