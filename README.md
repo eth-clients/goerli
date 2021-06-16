@@ -24,6 +24,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - Petersfork: `0`
   - Istanbul: `1_561_651`
   - Berlin: `4_460_644`
+  - London: `5_062_605`
 - Status Dashboard: 
   - https://stats.goerli.net/
 - Block Explorer: 
