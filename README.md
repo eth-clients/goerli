@@ -36,6 +36,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://goerli-faucet.dappnode.net/
   - https://faucet.goerli.mudit.blog/
   - https://faucets.chain.link/goerli (No social media account required)
+  - https://goerli-faucet.pk910.de/ (PoW powered, No social media account required)
 - Open RPC Endpoints:
   - https://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
