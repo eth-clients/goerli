@@ -31,6 +31,7 @@ See also: [Getting started with the Görli Testnet](https://mudit.blog/getting-s
   - https://goerli.etherscan.io/
   - https://expedition.dev/?network=goerli
 - Faucets:
+  - https://goerlifaucet.com (No auth, or social media account required)
   - https://fauceth.komputing.org/?chain=5 (No social media account required)
   - https://faucet.paradigm.xyz/
   - https://goerli-faucet.dappnode.net/
