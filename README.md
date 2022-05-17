@@ -1,7 +1,8 @@
 # Görli Testnet
 The `--goerli` cross-client proof-of-authority testnet configuration.
 
-- https://goerli.net
+- Website: https://goerli.net
+- Matrix: `#goerli_chat:gitter.im` (bridged to `gitter.im/goerli/chat`)
 
 Goerli Testnet is the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet is a community-based project and completely open-source. It was born in September 2018 during [ETHBerlin](https://twitter.com/ETHBerlin) and has been growing in contributors ever since.
 
