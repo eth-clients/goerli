@@ -45,6 +45,7 @@ Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID
   - https://rpc.goerli.mudit.blog
   - https://rpc.slock.it/goerli
   - https://www.ethercluster.com/goerli
+  - https://rpc.ankr.com/eth_goerli
 
 ### Connecting the clients
 
