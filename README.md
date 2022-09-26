@@ -80,7 +80,7 @@ Connect to Görli by using the provided state and genesis included in EthereumJS
 
 Prater Testnet (v1.0.1) is the beacon-chain to be merged with the Goerli testnet.
 
-- Genesis Time: `1614588812` (Mar-01-2021 08:53:32 AM +UTC)
+- Minimum genesis Time: `1614588812` (Mar-01-2021 08:53:32 AM +UTC)
 - Genesis Delay: `1919188` (`1616508000`, Mar-23-2021 02:00:00 PM +UTC)
 - Genesis Fork Version: `0x00001020` (Prater area code, Vienna)
 - Fork Digest: `0x79df0428` (`0xe4be9393` pre-genesis fork digest)
