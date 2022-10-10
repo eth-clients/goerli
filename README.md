@@ -35,7 +35,7 @@ Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID
   - https://goerli.etherscan.io/
 - Faucets:
   - https://goerlifaucet.com (No auth, or social media account required)
-  - https://fauceth.komputing.org/?chain=5 (No social media account required)
+  - https://fauceth.komputing.org/?chain=5 (No social media account required,ENS Required)
   - https://faucet.paradigm.xyz/
   - https://faucet.goerli.mudit.blog/
   - https://faucets.chain.link/goerli (No social media account required)
