@@ -1,17 +1,20 @@
-# Görli Testnet
+<p align="center"><a href="https://github.com/ethereum/ropsten">Ropsten (2016)</a> | Rinkeby (2017) | <strong>Goerli (2019)</strong> | <a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <a href="https://github.com/eth-clients/holesovice">Holesovice (2023)</a></p>
+<p align="center"><img src="./assets/goerli.png" /></p>
+
+# Goerli Testnet
 The `--goerli` cross-client proof-of-authority testnet configuration.
 
 - Website: https://goerli.net
 
-Görli Testnet is the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet was a community-based project and completely open-source. It was born in September 2018 during [ETHBerlin](https://ethberlin.com) and has been growing in contributors ever since.
+Goerli Testnet is the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet was a community-based project and completely open-source. It was born in September 2018 during [ETHBerlin](https://ethberlin.com) and has been growing in contributors ever since.
 
-:warning: Görli testnet will be merged with the Prater proof-of-stake beacon chain. This will mark the end of the permissioned proof-of-authority phase and everyone will be able to run a validator for Görli. Therefore, **this repository contains both Görli execution-layer and Prater consensus-layer configurations**.
+:warning: Goerli testnet will be merged with the Prater proof-of-stake beacon chain. This will mark the end of the permissioned proof-of-authority phase and everyone will be able to run a validator for Goerli. Therefore, **this repository contains both Goerli execution-layer and Prater consensus-layer configurations**.
 
 Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID is `5`. Native integrations are available for MetaMask, Infura, Alchemy, etc.
 
-## Meta data: Görli
+## Meta data: Goerli
 
-- Name: **Görli**
+- Name: **Goerli**
 - Flag: `--goerli`
 - Stage: _launched_
   - PoA Engine: `clique`
@@ -49,19 +52,19 @@ Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID
 
 ### Connecting the clients
 
-All clients supporting the Clique engine (EIP-225) are able to sync with Görli.
+All clients supporting the Clique engine (EIP-225) are able to sync with Goerli.
 
 ##### Go-Ethereum
 
-You can connect Geth to Görli by executing `geth --goerli`. https://github.com/ethereum/go-ethereum/releases
+You can connect Geth to Goerli by executing `geth --goerli`. https://github.com/ethereum/go-ethereum/releases
 
 ##### Hyperledger Besu
 
-Connect to Görli using Hyperledger Besu by executing `besu --network=goerli`. https://github.com/hyperledger/besu/releases
+Connect to Goerli using Hyperledger Besu by executing `besu --network=goerli`. https://github.com/hyperledger/besu/releases
 
 ##### Nethermind
 
-Connect to Görli by using the provided goerli.cfg included in Nethermind: https://github.com/NethermindEth/nethermind/releases
+Connect to Goerli by using the provided goerli.cfg included in Nethermind: https://github.com/NethermindEth/nethermind/releases
 
 ```
 dotnet run --config configs/goerli.cfg
@@ -69,7 +72,7 @@ dotnet run --config configs/goerli.cfg
 
 ##### EthereumJS
 
-Connect to Görli by using the provided state and genesis included in EthereumJS: https://github.com/ethereumjs/ethereumjs-common/releases
+Connect to Goerli by using the provided state and genesis included in EthereumJS: https://github.com/ethereumjs/ethereumjs-common/releases
 
 ```
 ./bin/cli.js --network goerli
