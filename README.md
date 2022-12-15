@@ -6,7 +6,7 @@ The `--goerli` cross-client proof-of-authority testnet configuration.
 
 - Website: https://goerli.net
 
-:warning: Goerli will be **deprecated as of January 2023**. It will be supported long term for another 12 month. Please consider using [Sepolia](https://github.com/eth-clients/sepolia) moving forward.
+:warning: Goerli will be **deprecated as of January 2023**. It will be supported long term for another 12 months. Please consider using [Sepolia](https://github.com/eth-clients/sepolia) moving forward.
 
 ## History
 
