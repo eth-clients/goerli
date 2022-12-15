@@ -6,11 +6,13 @@ The `--goerli` cross-client proof-of-authority testnet configuration.
 
 - Website: https://goerli.net
 
-Goerli Testnet is the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet was a community-based project and completely open-source. It was born in September 2018 during [ETHBerlin](https://ethberlin.com) and has been growing in contributors ever since.
+:warning: Goerli will be **deprecated as of January 2023**. It will be supported long term for another 12 month. Please consider using [Sepolia](https://github.com/eth-clients/sepolia) moving forward.
 
-:warning: Goerli testnet will be merged with the Prater proof-of-stake beacon chain. This will mark the end of the permissioned proof-of-authority phase and everyone will be able to run a validator for Goerli. Therefore, **this repository contains both Goerli execution-layer and Prater consensus-layer configurations**.
+## History
 
-Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID is `5`. Native integrations are available for MetaMask, Infura, Alchemy, etc.
+Goerli Testnet was the first proof-of-authority cross-client testnet, synching Geth, Nethermind, Hyperledger Besu, and others. This testnet was a community-based project and completely open-source. It was born in September 2018 during [ETHBerlin](https://ethberlin.com) and has been growing in contributors ever since.
+
+The Goerli testnet was merged with the Prater proof-of-stake beacon chain. This marked the end of the permissioned proof-of-authority phase and everyone is now able to run a validator for Goerli. Therefore, **this repository contains both Goerli execution-layer and Prater consensus-layer configurations**.
 
 ## Meta data: Goerli
 
@@ -31,6 +33,7 @@ Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID
   - Istanbul: `1_561_651`
   - Berlin: `4_460_644`
   - London: `5_062_605`
+  - Terminal Total Difficulty: `10790000` (_passed_)
 - Status Dashboard:
   - https://stats.goerli.net/
 - Block Explorers:
@@ -49,34 +52,6 @@ Run `geth --goerli` or `besu --network=goerli` to sync the testnet. The Chain ID
   - https://rpc.slock.it/goerli
   - https://www.ethercluster.com/goerli
   - https://rpc.ankr.com/eth_goerli
-
-### Connecting the clients
-
-All clients supporting the Clique engine (EIP-225) are able to sync with Goerli.
-
-##### Go-Ethereum
-
-You can connect Geth to Goerli by executing `geth --goerli`. https://github.com/ethereum/go-ethereum/releases
-
-##### Hyperledger Besu
-
-Connect to Goerli using Hyperledger Besu by executing `besu --network=goerli`. https://github.com/hyperledger/besu/releases
-
-##### Nethermind
-
-Connect to Goerli by using the provided goerli.cfg included in Nethermind: https://github.com/NethermindEth/nethermind/releases
-
-```
-dotnet run --config configs/goerli.cfg
-```
-
-##### EthereumJS
-
-Connect to Goerli by using the provided state and genesis included in EthereumJS: https://github.com/ethereumjs/ethereumjs-common/releases
-
-```
-./bin/cli.js --network goerli
-```
 
 ## Meta-data: Prater
 
