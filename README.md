@@ -47,7 +47,6 @@ The Goerli testnet was merged with the Prater proof-of-stake beacon chain. This 
   - https://faucet.goerli.mudit.blog/
   - https://faucets.chain.link/goerli (No social media account required)
   - https://goerli-faucet.pk910.de/ (PoW powered, No social media account required)
-  - https://goerli-faucet.com/ ([Open Source](https://github.com/ayanamitech/ethereum-faucet), Telegram Bot authenticated, No social media account required)
 - Open RPC Endpoints:
   - https://goerli.prylabs.net
   - https://rpc.goerli.mudit.blog
