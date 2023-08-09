@@ -55,6 +55,8 @@ The Goerli testnet was merged with the Prater proof-of-stake beacon chain. This 
   - https://rpc.slock.it/goerli
   - https://www.ethercluster.com/goerli
   - https://rpc.ankr.com/eth_goerli
+- Shared RPC Endpoints:
+  - https://eth.getblock.io/&lt;api_key&gt;/goerli/ 
 
 ## Meta-data: Prater
 
