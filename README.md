@@ -6,7 +6,7 @@ The `--goerli` cross-client proof-of-authority testnet configuration.
 
 - Website: https://goerli.net
 
-:warning: Goerli will be **deprecated as of January 2023**. It will be supported long term for another 12 months. Please consider using [Sepolia](https://github.com/eth-clients/sepolia) moving forward.
+:warning: Goerli will be **deprecated as of January 2023**. It will be supported long term for the longer of three months after the Dencun upgrade is activated on it, or one month after Dencun is activated on the Ethereum mainnet. No further network upgrade will be deployed to the network after this. Please consider using [Sepolia](https://github.com/eth-clients/sepolia) moving forward.
 
 To learn more about post-merge testnets check out the [Ethereum website](https://ethereum.org/en/developers/docs/networks/) or this [Devcon 6 talk](https://archive.devcon.org/archive/watch/6/post-merge-testnets/?tab=Swarm).
 
