@@ -37,6 +37,7 @@ The Goerli testnet was merged with the Prater proof-of-stake beacon chain. This 
   - London: `5_062_605`
   - Terminal Total Difficulty: `10790000` (_passed_)
   - Shanghai (timestamp): `1678832736`
+  - Cancun (timestamp): `1705473120`
 - Status Dashboard:
   - https://stats.goerli.net/
 - Block Explorers:
